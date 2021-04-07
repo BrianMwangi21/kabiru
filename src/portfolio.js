@@ -282,106 +282,57 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work & Internship",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've mostly done in-house projects for the places I have worked. I love playing with new technology to see how they can be used to solve problems too!",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
+          title: "Full Stack Engineer",
+          company: "Digital Vision EA",
+          company_url: "https://digitalvisionea.com/",
+          logo_path: "dvea.jpg",
+          duration: "November 2020 - Present",
+          location: "Office / Work From Home",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+            "I worked on various of Digital Vision EA products. This includes Chamasoft and WebSacco. Mainly used PHP for the backend and ReactJS for the frontend",
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
+          title: "Web & Software Developer",
+          company: "Decoded - by Africa's Talking",
+          company_url: "https://decoded.africa/home",
+          logo_path: "decoded.jpg",
+          duration: "February 2020 - November 2020",
+          location: "Office / Work From Home",
           description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+            "I worked on one of the products by Decoded Africa which is the MtaaniLeague. I developed a Telegram bot for tournament scheduling as well as a ReactJS dashboard for players to view the leaderboard",
           color: "#ee3c26",
         },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Software Developer",
+          company: "Jubilee Party",
+          company_url: "https://jubileepamoja.co.ke",
+          logo_path: "jubilee.jpg",
+          duration: "November 2016 - November 2019",
+          location: "Office",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
+            "I worked with the digital team to maintain the website, keep it updated and looking good. Also worked on an Android App for latest news on the party",
+          color: "#0C9D5899",
         },
         {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
+          title: "Software Developer",
+          company: "FUNDIS",
+          company_url: "http://fundis.co.ke/",
+          logo_path: "fundis.jpg",
+          duration: "August 2016 - November 2019",
+          location: "Office",
           description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
+            "I worked on the pilot Android Fundis application which allowed people to call qualified fundis through their phone. I also worked on the website",
+          color: "#b190b0",
         },
       ],
     },
@@ -392,7 +343,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. I have also dipped my feet into some AI and blockchain as well. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -402,13 +353,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "harikrushn.jpg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. My replies are quick - trust me.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+      "I don't blog frequently but that's in my plan for the future. I'm funny and introspective on Twitter though.",
+    link: "https://twitter.com/Kabiru__",
     avatar_image_path: "blogs_image.svg",
   },
 };
