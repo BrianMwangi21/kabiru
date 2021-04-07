@@ -11,13 +11,12 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Mwangi",
-  logo_name: "mwangi.k()",
+  logo_name: "mwangi.k(a)biru",
   nickname: "mwangi / kabiru",
   full_name: "Mwangi Kabiru",
   subTitle:
     "Full Stack Developer, Blockchain & AI Enthusiast 🔥. Always learning.",
-  resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+  resumeLink: "https://www.linkedin.com/in/brian-mwangi/",
   mail: "mailto:mwangikabiru21@gmail.com",
 };
 
@@ -351,14 +350,14 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "kabiru.jpeg",
     description:
       "You can contact me at the places mentioned below. My replies are quick - trust me.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but that's in my plan for the future. I'm funny and introspective on Twitter though.",
+      "I don't blog frequently but that's in my plan for the future. I'm funny and introspective on Twitter though - 😉😂",
     link: "https://twitter.com/Kabiru__",
     avatar_image_path: "blogs_image.svg",
   },
