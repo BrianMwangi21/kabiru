@@ -39,9 +39,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using ReactJS and VueJS and IONIC",
+        "⚡ Creating application backend in Node, Express, Spring Boot & Flask",
         "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
@@ -65,13 +64,6 @@ const skills = {
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
           },
         },
         {
@@ -102,20 +94,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -124,38 +102,10 @@ const skills = {
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
           },
         },
         {
@@ -180,20 +130,6 @@ const skills = {
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
           style: {
@@ -208,16 +144,9 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience with Continuous Integration / Continuous Delivery",
       ],
       softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
         {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
@@ -237,6 +166,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
           },
         },
         {
@@ -275,17 +211,31 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SETI",
-      duration: "2018 - Present",
+      title: "Strathmore University",
+      subtitle: "Master of Science in Information Technology",
+      logo_path: "strathmore.jpg",
+      alt_name: "SU",
+      duration: "2020 - Present",
+      descriptions: [
+        "⚡ I have studied core subjects like Advanced Database Systems, Software Modeling, Business Ethics etc.",
+        "⚡ I have also started on a thesis about Non-Fungible Tokens based on Blockchain technology.",
+      ],
+      website_link:
+        "https://www.strathmore.edu/course/master-of-science-information-technology-msc-it/",
+    },
+    {
+      title: "Strathmore University",
+      subtitle: "Bachelor of Science in Informatics and Computer Science",
+      logo_path: "strathmore.jpg",
+      alt_name: "SU",
+      duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link:
+        "https://www.strathmore.edu/course/bachelor-of-science-in-informatics-and-computer-science/",
     },
   ],
 };
@@ -293,70 +243,29 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+      title: "Machine Learning",
+      subtitle: "Stanford University | Coursera",
+      logo_path: "machinelearning.png",
+      certificate_link: "",
+      alt_name: "Stanford University | Coursera",
       // color_code: "#2AAFED",
       color_code: "#47A048",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "hackathon",
+      title: "Cyber Security",
+      subtitle: "eMobilis Limited",
+      logo_path: "cybersecurity.jpeg",
+      certificate_link: "",
+      alt_name: "Cyber Security",
       color_code: "#E2405F",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
+      title: "MIT: Android Programming",
+      subtitle: "eMobilis Limited",
+      logo_path: "android.jpg",
+      certificate_link: "",
+      alt_name: "MIT: Android Programmin",
       color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter Internation Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter Internation Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
