@@ -416,6 +416,32 @@ const projects = {
     },
     {
       id: "2",
+      name: "Bitcoin Price Prediction using Time Series Analysis",
+      url: "https://github.com/BrianMwangi21/btc-price-prediction-TIMESERIES",
+      description:
+        "A simple analysis on bitcoin prices to using time series analysis to predict the future prices. The Jupyter notebook is available for you to run",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Bitcoin Price Prediction using Recurring Neural Network",
+      url: "https://github.com/BrianMwangi21/btc-price-prediction-RNN",
+      description:
+        "A simple analysis on bitcoin prices to using neural networks to predict the future prices. The Jupyter notebook is available for you to run",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+    {
+      id: "4",
       name: "Kenya Economic Data Analysis",
       url: "https://github.com/BrianMwangi21/kenya-economic-data-analysis",
       description:
@@ -428,7 +454,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "Safaricom Share Price Prediction",
       url: "https://github.com/BrianMwangi21/safaricom-share-prices-prediction",
       description: "A simple price prediction script on Safaricom share prices",
@@ -440,7 +466,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "6",
       name: "Simple Python Blockchain",
       url: "https://github.com/BrianMwangi21/simple-python-blockchain",
       description: "A simple blockchain implementation in python.",
@@ -452,7 +478,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "Book Recommender",
       url: "https://github.com/BrianMwangi21/books",
       description:
@@ -465,7 +491,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "Office Guestbook",
       url: "https://github.com/BrianMwangi21/guestbook",
       description: "A simple office guestbook in ReactJS & Firebase",
@@ -493,7 +519,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "9",
       name: "Twitter Scrappy",
       url: "https://github.com/BrianMwangi21/scrappy",
       description:
@@ -506,7 +532,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "10",
       name: "hopes",
       url: "https://github.com/BrianMwangi21/hope",
       description: "A simple wall of hopeful messages during COVID times",
@@ -534,7 +560,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "11",
       name: "Stellar Demo",
       url: "https://github.com/BrianMwangi21/stellar-demo-web",
       description: "Trying the Stellar network protocol",
